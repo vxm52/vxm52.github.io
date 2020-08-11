@@ -46,9 +46,31 @@
 
 /* Banner Area */
 
+/* Auto Typing cursor */
+/* Credits to Yipl-Frontenders-Snippets at: https://codepen.io/Yipl-Frontenders/pen/QjdMge */
+.cursor {
+  position: relative;
+  right: 1.5%;
+  font-size: 150%;
+  font-weight: lighter;
+  /* background-color: white; */
+  color: black;
+  z-index: 1;
+  animation: flash 0.4s none infinite alternate;
+}
+@keyframes flash{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.01;
+  }
+}
+
 .site-main .site-banner {
   background: url(./img/banner/Fox.jpg) no-repeat 0% 50%; /* alternative way of specifying background-position */
   /* background-position: 0% 50%; */
+  margin-bottom: 20%;
 }
 
 .site-main .site-banner .site-title h3 {
@@ -72,6 +94,7 @@
 
 .site-main .site-banner .site-title h4 {
   font-size: 1.5rem;
+  color: #007EFF;
 }
 
 .site-main .site-banner .banner-image > img {
@@ -84,13 +107,20 @@
 
 .site-main .about-area {
   padding: 7rem 2rem;
+  background-color: #FCFCFC;
 }
 
 .site-main .about-area .about-image {
-  position: relative;
-  width: 487px;
-  left: 30%;
   text-align: center;
+}
+
+.site-main .about-area .img-fluid {
+  /* position: relative; */
+  max-width: 487px;
+  height: auto;
+  /* left: 30%; */
+  /* text-align: center; */
+  border-radius: 15%;
 }
 
 .site-main .about-area .about-title h2 > span {

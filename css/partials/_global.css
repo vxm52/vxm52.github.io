@@ -1,17 +1,41 @@
 
 
 /* Global Classes */
-
 .title-text {
   font: normal bold 50px/72px var(--roboto);
+  letter-spacing: 3px;
 }
 
 .text-uppercase {
   text-transform: uppercase;
 }
 
-/* Buttons */
+.title-text .txt-rotate {
+  letter-spacing: 0.5rem;
+}
 
+/* Social Link icons from Font Awesome */
+.social-links {
+  position: relative;
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+.social-links a {
+  color: black;
+}
+
+.fab {
+  text-align: left;
+  padding: 3% 5% 3% 0.5%;
+  margin-left: 0;
+}
+
+.fab:hover {
+  color: #007EFF;
+}
+
+/* Buttons */
 .button {
   padding: .8rem 2.2rem;
   font: normal 500 16px/20px var(--roboto);
@@ -74,6 +98,7 @@
   transform: scale(0.9);
   transition: 100ms;
 }
+
 
 p.para {
   color: var(--text-color);

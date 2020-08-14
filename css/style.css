@@ -40,6 +40,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  transform: scale(1.1);
+  transition: 100ms ease;
 }
 /* end navigation */
 
@@ -67,10 +69,14 @@
   }
 }
 
+.site-main {
+  height: 100%;
+}
+
 .site-main .site-banner {
   background: url(./img/banner/Fox.jpg) no-repeat 0% 50%; /* alternative way of specifying background-position */
   /* background-position: 0% 50%; */
-  margin-bottom: 20%;
+  margin-bottom: 30%;
 }
 
 .site-main .site-banner .site-title h3 {
@@ -94,7 +100,8 @@
 
 .site-main .site-banner .site-title h4 {
   font-size: 1.5rem;
-  color: #007EFF;
+  /* color: #007EFF; */
+  color: white;
 }
 
 .site-main .site-banner .banner-image > img {
@@ -103,11 +110,12 @@
 }
 /* End Banner Area */
 
+
 /* Start About Area */
 
 .site-main .about-area {
   padding: 7rem 2rem;
-  background-color: #FCFCFC;
+  background-color: #FBFBFB;
 }
 
 .site-main .about-area .about-image {
@@ -120,7 +128,7 @@
   height: auto;
   /* left: 30%; */
   /* text-align: center; */
-  border-radius: 15%;
+  border-radius: 50%;
 }
 
 .site-main .about-area .about-title h2 > span {
@@ -138,6 +146,7 @@
 /* Freelance Services Area */
 .site-main .services-area {
   padding: 7rem 2rem;
+  background-color: white;
 }
 
 .site-main .services-area .services-img {
@@ -165,3 +174,46 @@
   box-shadow: var(--box-shadow);
 }
 /* End Freelance Services Area */
+
+
+/* Projects Area */
+
+.site-main .project-area {
+  padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button {
+  padding-left: 3rem;
+}
+
+.site-main .project-area .button-group button:hover {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+  transform: scale(1.1);
+  transition: 100ms ease;
+  color: var(--primary-color2);
+}
+
+.site-main .project-area .button-group button:active {
+  transform: scale(0.9);
+  transition: 100ms ease;
+}
+
+.site-main .project-area .grid .our-project > .title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project > .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* End Projects Area */

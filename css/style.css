@@ -1,15 +1,19 @@
 
 /* import fonts from fonts.css file */
-@import url(./fonts.css);
+@import url(fonts.css);
 
 /* import css variables */
-@import url(./partials/_variables.css);
+@import url(partials/variables.css);
 
 /* import global styling */
-@import url(./partials/_global.css);
+@import url(partials/global.css);
 
 
 /* start navigation */
+
+a {
+  color: #854fee;
+}
 
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem;

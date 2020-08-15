@@ -1,3 +1,5 @@
+
+// Autotyping Text
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -41,7 +43,6 @@ TxtRotate.prototype.tick = function() {
   }, delta);
 };
 
-
 window.onload = function() {
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
@@ -57,7 +58,7 @@ window.onload = function() {
   // css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
-
+// End of Autotyping Text
 
 
 
@@ -87,4 +88,23 @@ $(document).ready(function() {
 
   });
 
+
+  // Sticky navigation menu
+  
+  let nav_offset_top = $('.header_area').height() + 600;
+
+  function navbarFixed() {
+    if ($('.header_area').length) {
+      $(window).scroll(function() {
+        let scroll = $(window).scrollTop();
+        if (scroll >= nav_offset_top) {
+          $('.header_area .main-menu').addClass('navbar_fixed');
+        } else {
+          $('.header_area .main-menu').removeClass('navbar_fixed');
+        }
+      })
+    }
+  }
+
+  navbarFixed();
 });

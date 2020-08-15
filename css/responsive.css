@@ -1,0 +1,208 @@
+/* Tablet Layout overrides */
+@media (min-width: 768px) {
+  .col-md-6 {
+    text-align: -webkit-center !important;
+  }
+}
+
+/* Mobile layout overrides */
+@media only screen and (max-width: 767px) {
+  body {
+    /* Dark gradient background theme */
+    height: 100vh !important;
+    background-color: #000000 !important;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%) !important;
+  }
+  h1 {
+    font-size: 26px !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    margin-bottom: 0 !important;
+  }
+  h2 {
+    font-size: 26px !important
+    margin-bottom: 0 !important;
+  }
+  h3 {
+    font-size: 14px !important;
+  }
+  h4 {
+    font-size: 28px !important;
+    margin-bottom: 0 !important;
+  }
+  h1.title-text {
+    font-size: 36px !important;
+    text-align: left;
+  }
+  .site-main .site-banner .container {
+    text-align: -webkit-center !important;
+  }
+  .site-main .site-banner .site-title  {
+    text-align: center !important;
+  }
+  .site-main .site-banner .site-title h3 {
+    font-size: 22px !important;
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 8rem !important;
+    color: #B2B2B2 !important;
+  }
+  .site-main .site-banner .site-title h3::after {
+    content: none !important;
+  }
+  .site-main .site-banner .site-title h1 {
+    color: white;
+    text-align: center !important;
+    font-size: 42px !important;
+  }
+  .site-main .site-banner .site-title .txt-rotate {
+    font-size: 15px !important;
+    padding-left: 2rem !important;
+    color: #80DAFF !important;
+  }
+  .site-main .site-banner .site-title .site-buttons {
+    text-align: center !important;
+  }
+
+  .site-main .site-banner .site-title a {
+    text-align: center !important;
+    width: 100%;
+    /* padding-left: 24.5% !important; */
+    margin-top: 14rem !important;
+  }
+  .site-main .site-banner .site-title .button {
+    margin-right: 0 !important;
+  }
+  .site-main .site-banner .site-title .social-links {
+    padding-left: 1rem;
+  }
+  .site-main .site-banner .site-title .fab {
+    color: #D3D3D3;
+    transform: scale(0.8);
+  }
+  .header_area .main-menu .navbar {
+    z-index: 3 !important;
+    padding: 1rem 3rem !important;
+  }
+  /* .navbar, .navbar_fixed {
+    display: none !important;
+  } */
+  .bg {
+    display: none !important;
+  }
+  .about-area h1 {
+    padding: 1rem !important;
+  }
+  .about-area .about-title {
+    text-align: center;
+  }
+  .w-75 {
+    width: 100% !important;
+  }
+  .about-area .button {
+    margin-right: 0 !important;
+  }
+  .site-main .services-area .services {
+    margin: 0 !important;
+    margin-bottom: 2rem !important;
+    background-color:
+  }
+  .site-main .services-area .container {
+    text-align: -webkit-center;
+  }
+  .project-area img {
+    width: 311px !important;
+    height: auto !important;
+  }
+  .project-area .button, .project-area button {
+    /* width: 311px !important; */
+    height: 50px !important;
+    padding-left: 0 !important;
+  }
+  .project-area .button-group {
+    display: none !important;
+  }
+  .contact-title {
+    width: 311px !important;
+    height: auto !important;
+  }
+  .contact-me-area h4 {
+    padding-top: 2rem;
+    color: white;
+  }
+  .contact-me-area p {
+    color: #B2B2B2;
+  }
+  .contact-me-area a, mr-4 {
+    margin-right: 0 !important;
+  }
+  .contact-me-area .col {
+    padding: 0 !important;
+  }
+  .contact-me-area .contact{
+    width: 311px !important;
+  }
+  .project-area .row, .contact-me-area .row {
+    margin: 0 0 0 0 !important;
+    text-align: center !important;
+  }
+  .contact-me-area .row {
+    width: 311px !important;
+  }
+}
+
+/* If the viewport is <= 340px */
+@media only screen and (max-width: 340px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .contact-me-area .contact .contact-title,
+  .site-main .contact-me-area .contact .contact-title p,
+  .site-main .services-area,
+  .site-main .contact-me-area .contact {
+    padding: 2%;
+    margin: 0%;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+  .site-main > .services-area .services {
+    width: 13rem;
+  }
+  .project-area img {
+    width: 260px !important;
+    height: auto !important;
+  }
+}
+
+
+/* If the viewport is <= 792px */
+@media only screen and (max-width: 792px) {
+  .site-main .about-area .about-title h2 > span {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+
+  .site-main .project-area .button-group button {
+    font: normal 500 18px/40px var(--roboto);
+  }
+
+  .site-main .about-area .about-title p {
+    padding: 0%;
+  }
+}
+
+/* If the viewport is <= 1910px */
+@media only screen and (max-width: 1910px) {
+  .header_area .main-menu .navbar {
+    padding: 1rem;
+  }
+
+  /* .container {
+    max-width: 90%;
+  } */
+
+  .site-main .services-area .services-title,
+  .site-main .about-area {
+    padding: 3% 4%;
+  }
+}

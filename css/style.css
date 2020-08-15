@@ -87,7 +87,8 @@ a {
 }
 
 .site-main .site-banner {
-  background: url(./img/banner/Fox.jpg) no-repeat 0% 50%; /* alternative way of specifying background-position */
+  height: 100vh;
+  /* background: url(./img/banner/Fox.jpg) no-repeat 0% 50%; /* alternative way of specifying background-position */ */
   /* background-position: 0% 50%; */
   margin-bottom: 30%;
 }
@@ -144,7 +145,7 @@ a {
   border-radius: 50%;
 }
 
-.site-main .about-area .about-title h2 > span {
+.site-main .about-area .about-title h1 {
   display: block;
   font: normal bold 49px/ 60px var(--roboto);
   letter-spacing: 14px;
@@ -181,7 +182,7 @@ a {
   background: rgba(248, 252, 253, 0.973);
   padding: 2rem 0;
   width: 16rem;
-  margin: 0rem .5rem 5rem .5rem;
+  margin: 0rem .5rem 2rem .5rem;
   transition: box-shadow .7s ease;
 }
 
@@ -193,7 +194,7 @@ a {
 
 /* Projects Area */
 .site-main .project-area {
-  padding: 4rem 0;
+  padding: 4rem 0 8rem 0;
   background-color: #f6f6f6;
 }
 

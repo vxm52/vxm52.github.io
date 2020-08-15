@@ -17,7 +17,7 @@ html, body {
 .bg {
   position: absolute;
   /* The image used */
-  background-image: url("./img/banner/Intro-Background.jpg");
+  background-image: url("../../img/banner/Intro-Background.jpg");
 
   /* Full height */
   width: 100%;

@@ -49,6 +49,10 @@ a {
   transition: 100ms ease;
 }
 
+.header_area .main-menu .navbar-nav a::after {
+  background: var(--gradient-color);  
+}
+
 /* Offsetted elements for scrolling */
 #about, #services, #projects, #contact {
   position: relative;

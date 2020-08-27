@@ -90,7 +90,7 @@ $(document).ready(function() {
 
 
   // Sticky navigation menu
-  
+
   let nav_offset_top = $('.header_area').height() + 600;
 
   function navbarFixed() {

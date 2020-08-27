@@ -21,6 +21,9 @@
   <!-- responsive css file -->
   <link rel="stylesheet" href="css/responsive.css">
 
+  <!-- Animate on Scroll (AoS) library file -->
+  <link rel="stylesheet" href="vendor/aos/dist/aos.css" />
+
 
   <!-- Start of Google Analytics Tag -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,6 +45,7 @@
 </head>
 
 <body>
+   <div data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
 
   <!-- ============================= Start Header Area ============================= -->
 
@@ -92,23 +96,23 @@
       <span id=""> <!-- Navbar will scroll to this element. Check css for its offset -->
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-12 site-title">
+          <div class="col-lg-6 col-md-12 site-title" data-aos="fade-left" data-aos-duration="1000">
             <h3 class="title-text">Hey!</h3>
             <h1 class="title-text ">I'm VAIBHAV</h1>
             <h4 class="title-text text-uppercase">
-              <span class="txt-rotate" data-period="2000" data-rotate='[ "Software Engineer", "Designer", "Freelancer"]'>
+              <span class="txt-rotate" data-period="2000" data-rotate='[ "Developer", "Designer", "Freelancer"]'>
               </span>
               <span class="cursor">|</span>
             </h4>
             <div class="site-buttons">
-              <div class="d-flex flex-row flex-wrap">
+              <div class="d-flex flex-row flex-wrap" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
                 <a href="mailto:vaibhav.s.malla@gmail.com" class="btn button primary-button mr-4 text-uppercase">
                   Get In Touch
                 </a>
                 <!-- <button type="button" class="btn button secondary-button text-uppercase">Get CV</button> -->
               </div>
             </div>
-            <div class="social-links">
+            <div class="social-links" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1000">
               <a href="https://www.linkedin.com/in/vaibhav-malla/" target="_blank"><i class="fab fa-linkedin"></i></a>
               <a href="https://github.com/vxm52" target="_blank"><i class="fab fa-github"></i></a>
               <!-- <a href="https://www.instagram.com/vsmalla/" target="_blank"><i class="fab fa-instagram"></i></a> -->
@@ -144,15 +148,14 @@
                 design and development.
               </p>
               <p class="para">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
+
               </p>
-              <p class="skills-section">Skills Section:</p>
             </div>
-            <a href="#" class="btn button primary-button mr-4 text-uppercase">Resume</a>  <!-- Link to Resume -->
+            <p class="skills-section">Skills Section:</p>
+
+            <div data-aos="fade-left">
+              <a href="#" class="btn button primary-button mr-4 text-uppercase">Resume</a>  <!-- Link to Resume -->
+            </div>
           </div>
         </div>
       </div>
@@ -184,7 +187,7 @@
                 <div class="card-body text-center">
                   <h5 class="card-title text-uppercase font-roboto">Front-End</h5>
                   <p class="card-text text-secondary">
-                    Clean, elegant, and attractive designs. Experienced in HTML5, CS3, JavaScript, and React.
+                    Clean, elegant, and attractive designs. Experienced in HTML5, CSS3, JavaScript, and React.
                   </p>
                 </div>
               </div>
@@ -286,7 +289,7 @@
                 </a>
               </div>
               <div class="title py-4">
-                <h4 class="text-uppercase">Paint Wall</h4>
+                <h4 class="text-uppercase">To-Do List</h4>
                 <span class="text-secondary">Full Stack, Portfolio</span>
               </div>
             </div>
@@ -352,7 +355,7 @@
           </div>
         </div>
         <div class="d-sm-flex justify-content-center">
-          <div class="col">
+          <div class="col" data-aos="fade-up">
               <a href="mailto:vaibhav.s.malla@gmail.com" class="btn button primary-button mr-4 text-uppercase">
                 Say Hello
               </a>
@@ -397,6 +400,12 @@
 
   <!-- Magnific popup script file -->
   <script src="vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js" charset="utf-8"></script>
+
+  <!-- Animate on Scroll (AoS) library file -->
+  <script src="vendor/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <!-- Custom main.js file -->
   <script src="js/main.js" charset="utf-8"></script>

@@ -50,7 +50,7 @@ a {
 }
 
 .header_area .main-menu .navbar-nav a::after {
-  background: var(--gradient-color);  
+  background: var(--gradient-color);
 }
 
 /* Offsetted elements for scrolling */
@@ -138,6 +138,11 @@ a {
 
 .site-main .about-area .about-image {
   text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .site-main .about-area .img-fluid {
@@ -158,6 +163,48 @@ a {
 .site-main .about-area .about-title .paragraph > p {
   padding: .4rem 0;
 }
+
+/* Skills section (inside About Area) */
+.skills {
+  margin-bottom: 1.5rem;
+}
+
+.skills .container {
+  padding: 0 !important;
+}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #0563bb;
+}
+/* End skills section */
 /* End About Area */
 
 
@@ -315,3 +362,16 @@ footer .fab:hover {
   color: var(--primary-color);
 }
 /* End Footer Area */
+
+/* Scroll to top button */
+.scroll_top .go_top {
+  position: fixed;
+  bottom: 2.5%;
+  right: 0.1%;
+  padding: 1rem;
+}
+
+.go_top .fa-angle-double-up {
+  transform: scale(1.5);
+  transition: 100ms ease;
+}

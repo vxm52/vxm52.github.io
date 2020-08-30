@@ -26,10 +26,21 @@ html, body {
   background-position: 0 -300px;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -2;
+  z-index: -3;
   opacity: 70%;
 }
 
+.overlay {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #3F51B5;
+  opacity: 0.8;
+  z-index: -2:
+}
 
 /* CSS Variables */
 :root {

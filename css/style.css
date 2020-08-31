@@ -335,6 +335,18 @@ a {
   transition: 200ms ease;
 }
 
+.site-main .project-area .grid .our-project>.img .project-5-img img {
+  object-fit: cover;
+}
+
+.site-main .project-area .grid .our-project>.img .project-1-img:hover img {
+  filter: brightness(1.2) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.site-main .project-area .grid .our-project>.img .project-5-img:hover img {
+  filter: brightness(1.3) drop-shadow(1px 8px 30px #b1afaf);
+}
+
 .site-main .our-project img {
   width: 370px;
   height: 325px;
@@ -418,7 +430,29 @@ footer .fab:hover {
   padding: 1rem;
 }
 
+.scroll_top .go_top.button.primary-button {
+  border-radius: 16px !important;
+}
+
+
+.scroll_top .go_top.button.primary-button:hover > .fa-angle-double-up {
+  /* border-radius: 16px !important; */
+  /* transform: scale(1.1); */
+  transition: 100ms ease;
+  transform: scale(2);
+}
+
+.scroll_top .go_top.button.primary-button::after {
+  border-radius: 16px !important;
+  transform: scale(0.9);
+  transition: 100ms ease;
+}
+
+.scroll_top .go_top.button.primary-button:active {
+  transform: scale(0.75);
+  transition: 100ms ease;
+}
+
 .go_top .fa-angle-double-up {
   transform: scale(1.5);
-  transition: 100ms ease;
 }

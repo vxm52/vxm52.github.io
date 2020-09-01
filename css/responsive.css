@@ -148,6 +148,10 @@
   .project-area .row, .contact-me-area .row {
     margin: 0 0 0 0 !important;
     text-align: center !important;
+    line-height: 3rem !important;
+  }
+  .project-area .row .our-project {
+    margin-bottom: 1rem !important;
   }
   .contact-me-area .row {
     width: 311px !important;

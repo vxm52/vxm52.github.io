@@ -62,38 +62,42 @@ window.onload = function() {
 
 
 
-// Projects area - Filter (using Isotope package)
+
 $(document).ready(function() {
 
+  // Projects area - Filter (using Isotope package)
   let $btns = $('.project-area .button-group button');
-
   $btns.click(function(e) {
-
     $('.project-area .button-group button').removeClass('active');
     e.target.classList.add('active');
-
     let selector = $(e.target).attr('data-filter');
     $('.project-area .grid').isotope({
       filter : selector
     });
-
     return false;
   })
-
   $('.project-area .button-group #btn1').trigger('click');
-
   $('.project-area .grid .test-popup-link').magnificPopup({
   type: 'image',
   gallery:{enabled:true}
   });
 
+
+
+  // Collapsed Navbar close-on-click outside
+  
+  // $(document).click(function(e) {
+  //   var clickOutside = $(e.target);
+  //   var _opened = $(".navbar-collapse").hasClass("navbar-collapse");
+  //   if (_opened && !clickOutside.hasClass("navbar-toggler") && window.matchMedia("(max-width: 767px)").matches) {
+  //     $("button.navbar-toggler").click();
+  //   }
+  // });
 });
 
 
 // Sticky navigation menu
-
 let nav_offset_top = $('.header_area').height() + 600;
-
 function navbarFixed() {
   if ($('.header_area').length) {
     $(window).scroll(function() {

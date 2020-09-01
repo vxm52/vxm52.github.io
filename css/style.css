@@ -31,7 +31,8 @@ a {
 }
 
 .header_area .main-menu .navbar-nav .active a {
-  background: var(--gradient-color);
+  /* background: var(--gradient-color); */
+  background: var(--title-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -215,7 +216,7 @@ a {
 
 /* Skills section (inside About Area) */
 .skills {
-  margin-bottom: 1.5rem;
+  margin: 1rem 0 1.5rem 0;
 }
 
 .skills .container {
@@ -253,9 +254,11 @@ a {
   transition: .9s;
   background-color: #0563bb;
 }
-
 /* End skills section */
 /* End About Area */
+
+
+
 /* Freelance Services Area */
 .site-main .services-area {
   padding: 7rem 2rem;
@@ -289,10 +292,20 @@ a {
   box-shadow: var(--box-shadow);
 }
 
+.site-main .services-area .services:hover > .services-img {
+  transform: scale(1.05);
+  transition: .4s ease;
+}
+
+.site-main .services-area .services .services-img {
+  transition: .4s ease;
+}
 /* End Freelance Services Area */
+
+
 /* Projects Area */
 .site-main .project-area {
-  padding: 4rem 0 8rem 0;
+  padding: 4rem 0 6rem 0;
   background-color: #f6f6f6;
 }
 

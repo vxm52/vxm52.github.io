@@ -27,12 +27,12 @@ a {
   text-transform: uppercase;
   /* font-weight: 500; */
   padding: 1.7rem;
-  color: var(--title-color);
+  color: var(--text-color2);
 }
 
 .header_area .main-menu .navbar-nav .active a {
   /* background: var(--gradient-color); */
-  background: var(--title-color);
+  background: var(--text-color2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -68,7 +68,7 @@ a {
   font-size: 150%;
   font-weight: lighter;
   /* background-color: white; */
-  color: black;
+  color: white;
   z-index: 1;
   animation: flash 0.4s none infinite alternate;
 }
@@ -98,10 +98,11 @@ a {
 .site-main .site-banner .site-title h3 {
   padding-top: 35%;
   font-weight: 500;
+  color: #DDDDDD;
 }
 
 .site-main .site-banner .site-title h3::after {
-  content: "";
+  /* content: ""; */
   height: 2px;
   width: 15vw;
   background: black;
@@ -112,6 +113,7 @@ a {
 
 .site-main .site-banner .site-title h1 {
   font-size: 5rem;
+  color: #DDDDDD;
 }
 
 .site-main .site-banner .site-title h4 {
@@ -137,7 +139,16 @@ a {
   font-size: 1.25rem;
   font-weight: 600;
   /* transform: scale(2.5); */
-  color: white;
+  color: #9F9F9F;
+}
+
+.site-main .site-banner .hero_scroll:hover {
+  transform: scale(1.05);
+  transition: 50ms ease;
+}
+
+.site-main .site-banner .hero_scroll:active {
+  transform: scale(0.9);
 }
 
 .site-main .site-banner .hero_scroll .fa-chevron-down {
@@ -145,7 +156,7 @@ a {
   -webkit-animation: pulse 2s infinite;
   padding: 2px;
   font-size: 2.75rem;
-  color: white;
+  color: #9F9F9F;
 }
 
 @-webkit-keyframes pulse {
@@ -380,6 +391,7 @@ a {
 .site-main .contact-me-area .contact .contact-title h4 {
   font: normal bold 30px/50px var(--roboto);
   letter-spacing: 3px;
+  color: white;
 }
 
 .col {
@@ -410,7 +422,7 @@ footer.footer-area p {
 
 footer .fab {
   padding: 0 2rem 2rem 2rem;
-  color: var(--text-color);
+  color: var(--text-color2);
   transform: scale(0.7);
   text-align: left;
   padding: 3% 2.5% 3% 0.5%;
@@ -427,7 +439,7 @@ footer .fab:hover {
   display: inline-block;
   font-size: 18px;
   /* padding-top: 3rem; */
-  color: var(--text-color);
+  color: var(--text-color2);
 }
 
 .email-link:hover {
@@ -457,7 +469,7 @@ footer .fab:hover {
 
 .scroll_top .go_top.button.primary-button::after {
   border-radius: 16px !important;
-  transform: scale(0.9);
+  /* transform: scale(0.9); */
   transition: 100ms ease;
 }
 

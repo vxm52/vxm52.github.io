@@ -29,6 +29,7 @@
   text-align: left;
   padding: 3% 5% 3% 0.5%;
   margin-left: 0;
+  color: #868686;
 }
 
 .fab:hover {
@@ -103,7 +104,7 @@
 }
 
 p.para {
-  color: var(--text-color);
+  color: var(--text-color2);
   font: normal 500 16px/ 25px var(--roboto);
 }
 

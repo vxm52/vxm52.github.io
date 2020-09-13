@@ -8,16 +8,16 @@ html, body {
   scroll-behavior: smooth;
 
   /* Dark gradient background theme */
-  /* height: 100vh; */
-  /* background-color: #000000; */
-  /* background-image: linear-gradient(147deg, #000000 0%, #434343 74%); */
+  height: 100vh;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 }
 
 /* Intro Background Image */
 .bg {
   position: absolute;
   /* The image used */
-  background-image: url("../../img/banner/Intro-Background.jpg");
+  background-image: url("../../img/banner/Gradient Image.png");
 
   /* Full height */
   width: 100%;
@@ -48,6 +48,7 @@ html, body {
   --primary-color2: #854fee;
   --title-color: #141313;
   --text-color: #777777;
+  --text-color2: #B0B0B0;
   --border-color: #201f1f17;
   --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 70%);
   --gradient-colorReverse:  linear-gradient(90deg, #854fee 0%, #4458dc 70%);

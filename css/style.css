@@ -225,6 +225,10 @@ a {
   padding: .4rem 0;
 }
 
+.site-main .about-area .skills .section-title {
+  padding-right: 2rem;
+}
+
 /* Skills section (inside About Area) */
 .skills {
   margin: 1rem 0 1.5rem 0;
@@ -234,12 +238,12 @@ a {
   padding: 0 !important;
 }
 
+/*  ************  Code for Skills Progress Bars  ************
 .skills .progress {
   height: 50px;
   display: block;
   background: none;
 }
-
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0;
@@ -249,23 +253,63 @@ a {
   font-family: "Poppins", sans-serif;
   color: #45505b;
 }
-
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
-
 .skills .progress-bar-wrap {
   background: #EEEEEE;
 }
-
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
   background-color: #0563bb;
+}   ************  End of Code for Skills Progress Bars  ************  */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
 }
 
+.flex-container > div {
+  text-align: center;
+}
+
+.skills .skill-icon {
+  text-align: center;
+  margin: 2rem 2rem;
+}
+
+.skills .skill-icon p {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.skills .p-2 {
+  padding: 0 !important;
+}
+
+.skills .skill-icon i {
+  text-align: center;
+  padding: 0;
+  transform: scale(4);
+  color: grey;
+  transition: 150ms ease;
+}
+
+.skills .skill-icon i:hover {
+  color: lightgrey;
+}
+
+.skills .first-skill-icon {
+  margin-left: 0;
+}
+
+.skills .special-size-icon {
+  width: 3rem;
+}
 /* End skills section */
 /* End About Area */
 

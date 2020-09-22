@@ -197,32 +197,38 @@ a {
   color: #f6f6f6;
   text-align: center;
   overflow: hidden;
-  height: 4rem;
+  height: 8rem;
   z-index: 5;
 }
 
+.filler {
+  position: relative;
+  color: #f6f6f6;
+  background: #f6f6f6;
+  height: 4rem;
+}
 .wave-container-bottom {
   position: relative;
   color: #f6f6f6;
   text-align: center;
   overflow: hidden;
-  height: 4rem;
-  z-index: 5;
+  height: 5rem;
+  top: 4rem;
+  z-index: 6;
   transform: scaleY(-1);
 }
 
 svg path{
-  animation: pathAnime 6s linear infinite;
+  animation: pathAnime 7s linear infinite;
   /* animation-timing-function: linear;
   animation-iteration-count: infinite; */
 }
 svg path:nth-child(2){
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 svg path:nth-child(3){
   animation-delay: 3s;
 }
-
 @keyframes pathAnime {
   0% {
     d: path("M0,192 C220, 100, 440, 100, 660, 192 C880, 290, 1100, 290, 1320, 192 L1320 1500 L0 500");
@@ -412,7 +418,7 @@ svg path:nth-child(3){
 
 /* Projects Area */
 .site-main .project-area {
-  padding: 4rem 0 6rem 0;
+  padding: 4rem 0 2rem 0;
   background-color: #f6f6f6;
 }
 
@@ -479,7 +485,7 @@ svg path:nth-child(3){
   position: relative;
   background-color: #000000;
   background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
-  padding-top: 3rem;
+  padding-top: 7rem;
 }
 
 .site-main .contact-me-area .contact {

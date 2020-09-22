@@ -8,7 +8,7 @@ html, body {
   scroll-behavior: smooth;
 
   /* Dark gradient background theme */
-  height: 100vh;
+  height: 130vh;
   background-color: #000000;
   background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 }

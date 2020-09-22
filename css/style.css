@@ -130,7 +130,7 @@ a {
 .site-main .site-banner .hero_scroll {
   text-align: center;
   position: absolute;
-  top: 80vh;
+  top: 78vh;
   width: 200px;
   margin: auto;
   left: 0;
@@ -188,8 +188,8 @@ a {
     transform: translate(0, 0);
   }
 }
-
 /* End Banner Area */
+
 /* Start About Area */
 .site-main .about-area {
   position: relative;
@@ -421,16 +421,19 @@ a {
   height: 325px;
   border-radius: 3px;
 }
-
 /* End Projects Area */
+
 /* Contact Me Area */
 .contact-me-area {
   position: relative;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  padding-top: 3rem;
 }
 
 .site-main .contact-me-area .contact {
   padding: 2.5rem 0;
-  margin: 3rem auto 1rem auto;
+  margin: auto auto 1rem auto;
 }
 
 .site-main .contact-me-area .contact .contact-title h4 {
@@ -443,12 +446,11 @@ a {
   text-align: center;
   padding: 1rem 0 0 1rem;
 }
-
 /* End Contact Me Area */
+
 /* Footer Area */
 footer.footer-area {
-  padding: 4rem;
-  background: url(./)
+  padding: 6rem 4rem 4rem 4rem;
 }
 
 footer.footer-area .social h5 {
@@ -490,8 +492,8 @@ footer .fab:hover {
 .email-link:hover {
   color: var(--primary-color);
 }
-
 /* End Footer Area */
+
 /* Scroll to top button */
 .scroll_top .go_top {
   position: fixed;

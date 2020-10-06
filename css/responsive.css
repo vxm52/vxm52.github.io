@@ -41,6 +41,11 @@
     font-size: 36px !important;
     text-align: left;
   }
+
+  .site-main .site-banner {
+    height: 75vh;
+  }
+
   .site-main .site-banner .container {
     text-align: -webkit-center !important;
   }
@@ -51,7 +56,7 @@
     font-size: 22px !important;
     padding-top: 0 !important;
     margin-bottom: 0 !important;
-    margin-top: 8rem !important;
+    margin-top: 7rem !important;
     color: #B2B2B2 !important;
   }
   .site-main .site-banner .site-title h3::after {
@@ -60,7 +65,7 @@
   .site-main .site-banner .site-title h1 {
     color: white;
     text-align: center !important;
-    font-size: 42px !important;
+    font-size: 36px !important;
   }
   .site-main .site-banner .site-title .txt-rotate {
     font-size: 15px !important;
@@ -68,6 +73,7 @@
     color: #80DAFF !important;
   }
   .site-main .site-banner .site-title .site-buttons {
+    display: block !important;
     text-align: center !important;
   }
 
@@ -75,13 +81,15 @@
     text-align: center !important;
     width: 100%;
     /* padding-left: 24.5% !important; */
-    margin-top: 11rem !important;
+    margin-top: 12rem !important;
   }
   .site-main .site-banner .site-title .button {
     margin-right: 0 !important;
   }
   .site-main .site-banner .site-title .social-links {
     padding-left: 1rem;
+    font-size: 2.5em;
+    margin-top: 2rem !important;
   }
   .site-main .site-banner .site-title .fab {
     color: #D3D3D3;
@@ -174,7 +182,7 @@
     margin: 0%;
   }
   .site-main .site-banner .site-title h1 {
-    font-size: 41px;
+    font-size: 28px !important;
   }
   .site-main > .services-area .services {
     width: 13rem;

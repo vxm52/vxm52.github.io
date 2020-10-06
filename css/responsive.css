@@ -60,7 +60,7 @@
   .site-main .site-banner .site-title h1 {
     color: white;
     text-align: center !important;
-    font-size: 42px !important;
+    font-size: 28px !important;
   }
   .site-main .site-banner .site-title .txt-rotate {
     font-size: 15px !important;
@@ -68,6 +68,7 @@
     color: #80DAFF !important;
   }
   .site-main .site-banner .site-title .site-buttons {
+    display: block !important;
     text-align: center !important;
   }
 
@@ -82,6 +83,7 @@
   }
   .site-main .site-banner .site-title .social-links {
     padding-left: 1rem;
+    font-size: 2.5em;
   }
   .site-main .site-banner .site-title .fab {
     color: #D3D3D3;

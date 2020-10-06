@@ -17,7 +17,7 @@ a {
 }
 
 .header_area .main-menu .navbar {
-  padding: 1rem 20rem;
+  padding: 1rem 5rem;
 }
 
 .header_area .main-menu .nav-item .nav-link {
@@ -58,8 +58,9 @@ a {
   z-index: -999;
   top: -160px;
 }
-
 /* end navigation */
+
+
 /* Banner Area */
 /* Auto Typing cursor */
 /* Credits to Yipl-Frontenders-Snippets at: https://codepen.io/Yipl-Frontenders/pen/QjdMge */
@@ -95,10 +96,14 @@ a {
   /* background-position: 0% 50%; */
   margin-bottom: 30%;
 }
+.site-main .site-banner .container {
+  text-align: center;  /* Main item for center aligned site banner items */
+}
 
 .site-main .site-banner .site-title h3 {
-  padding-top: 35%;
+  padding-top: 20%;
   font-weight: 500;
+  transform: scale(0.9);
   color: #DDDDDD;
 }
 
@@ -128,6 +133,19 @@ a {
   width: 90rem;
 }
 
+.site-main .site-banner .site-title .txt-rotate {
+  padding-left: 2.25rem;
+}
+
+.site-main .site-banner .site-title .site-buttons {
+  margin-top: 1rem;
+  left: 40%;
+}
+
+.site-main .site-banner .site-title .social-links {
+  font-size: 1.5em;
+}
+
 .site-main .site-banner .hero_scroll {
   text-align: center;
   position: absolute;
@@ -140,7 +158,7 @@ a {
   font-size: 1.25rem;
   font-weight: 600;
   color: #9F9F9F;
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
 .site-main .site-banner .hero_scroll:hover {
@@ -155,28 +173,13 @@ a {
 
 .site-main .site-banner .hero_scroll .fa-chevron-down {
   transform: scale(2.5);
-  -webkit-animation: pulse 2s infinite;
+  -webkit-animation: bounce 2s infinite;
   padding: 2px;
   font-size: 2.75rem;
   color: #9F9F9F;
 }
 
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-  50% {
-    -webkit-transform: translate(0, 10px);
-    transform: translate(0, 10px);
-  }
-  100% {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-}
-
-@keyframes pulse {
+@-webkit-keyframes bounce {
   0% {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
@@ -485,6 +488,22 @@ svg path:nth-child(3){
 .site-main .contact-me-area .contact {
   padding: 2.5rem 0;
   margin: auto auto 1rem auto;
+}
+
+.site-main .contact-me-area .button.primary-button {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(133, 79, 238, 0.25);
+  }
+  70% {
+    box-shadow: 0 0 0 2rem rgba(133, 79, 238, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(133, 79, 238, 0);
+  }
 }
 
 .site-main .contact-me-area .button.primary-button:hover {

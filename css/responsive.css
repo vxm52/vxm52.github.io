@@ -84,6 +84,7 @@
   .site-main .site-banner .site-title .social-links {
     padding-left: 1rem;
     font-size: 2.5em;
+    margin-top: 30px !important;
   }
   .site-main .site-banner .site-title .fab {
     color: #D3D3D3;

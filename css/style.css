@@ -138,11 +138,10 @@ a {
 }
 
 .site-main .site-banner .site-title .site-buttons {
-  margin-top: 1rem;
-  left: 40%;
 }
 
 .site-main .site-banner .site-title .social-links {
+  margin-top: 4rem;
   font-size: 1.5em;
 }
 

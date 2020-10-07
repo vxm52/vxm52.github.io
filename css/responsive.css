@@ -170,14 +170,6 @@
   .about-area .button {
     margin-right: 0 !important;
   }
-  .site-main .services-area .services {
-    margin: 0 !important;
-    margin-bottom: 2rem !important;
-    background-color:
-  }
-  .site-main .services-area .container {
-    text-align: -webkit-center;
-  }
   .project-area img {
     width: 311px !important;
     height: auto !important;
@@ -228,6 +220,14 @@
   .col-md-6 {
     text-align: -webkit-center !important;
   }
+  .site-main .services-area .services {
+    margin: 0 !important;
+    margin-bottom: 2rem !important;
+    transform: scale(1);
+  }
+  .site-main .services-area .container {
+    text-align: -webkit-center;
+  }
   .project-area .our-project {
     left: 2rem;
   }
@@ -259,10 +259,27 @@
   }
 }
 
+@media only screen and (width: 1024px) {
+  .services-area .services {
+    position: relative;
+    right: 2rem;
+    transform: scale(0.8);
+  }
+}
+
 /* If the viewport is <= 1200px. (Desktop 1024px and tablet layouts) */
 @media only screen and (max-width: 1200px) {
   .about-area .about-title .resume {
     text-align: center;
+  }
+  .services-area .services {
+    transform: scale(0.8);
+  }
+  .services-area .services-img, .services-area .text-center {
+    transform: scale(1.1);
+  }
+  .services-area .services:hover {
+    transform: scale(0.8);
   }
   .project-area .button-group button {
     font: normal 500 16px/10px var(--roboto) !important;

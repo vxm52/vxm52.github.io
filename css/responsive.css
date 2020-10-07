@@ -1,14 +1,71 @@
-/* Tablet Layout overrides */
-@media (min-width: 768px) {
-  .col-md-6 {
-    text-align: -webkit-center !important;
+/* If the viewport is <= 320px (Smallest view: iPhone 5)*/
+@media only screen and (max-width: 320px) {
+  .site-main .site-title h3 {
+    margin-top: 0rem !important;
+    font-size: 18px !important;
+  }
+  .site-main .site-title h1 {
+    font-size: 22px !important;
+  }
+  .site-main .site-banner .site-title .site-buttons, .site-main .site-banner .site-title .social-links {
+    transform: scale(0.75);
+  }
+  .site-main .site-banner .site-title a {
+    margin-top: 4rem !important;
+  }
+  .footer-area .email-link {
+    position: relative;
+    right: 1.5rem;
   }
 }
 
-/* In-between Mobile and Desktop Layout (Special cases) */
-@media only screen and (max-width: 1780px) {
-  .w-75 {
-    width: 100% !important;
+/* If the viewport is <= 340px */
+@media only screen and (max-width: 340px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .contact-me-area .contact .contact-title,
+  .site-main .contact-me-area .contact .contact-title p,
+  .site-main .services-area,
+  .site-main .contact-me-area .contact {
+    padding: 2%;
+    margin: 0%;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 28px !important;
+  }
+  .site-main > .services-area .services {
+    width: 13rem;
+  }
+  .project-area .element-item {
+    left: -1.5em !important;
+  }
+  .project-area .our-project img, .project-area .our-project a {
+    transform: scale(0.75) !important;
+  }
+  .project-area .our-project .title {
+    padding-left: 2.75rem;
+  }
+  .project-area .our-project .py-4 {
+    padding-top: 0rem !important;
+  }
+}
+
+/* If the viewport is <= 414px (iPhone 6/7/8 Plus) */
+@media only screen and (max-width: 414px) {
+  .site-main .site-title h3 {
+    margin-top: 0rem !important;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 32px;
+  }
+  .site-main .site-banner .site-title .site-buttons, .site-main .site-banner .site-title .social-links {
+    transform: scale(0.75);
+  }
+  .site-main .site-banner .site-title a {
+    margin-top: 6rem !important;
+  }
+  .project-area .our-project .title .text-uppercase {
+    font-size: 20px !important;
   }
 }
 
@@ -31,7 +88,7 @@
     margin-bottom: 0 !important;
   }
   h3 {
-    font-size: 14px !important;
+    font-size: 14px;
   }
   h4 {
     font-size: 28px !important;
@@ -45,7 +102,6 @@
   .site-main .site-banner {
     height: 75vh;
   }
-
   .site-main .site-banner .container {
     text-align: -webkit-center !important;
   }
@@ -53,10 +109,10 @@
     text-align: center !important;
   }
   .site-main .site-banner .site-title h3 {
-    font-size: 22px !important;
+    font-size: 22px;
     padding-top: 0 !important;
     margin-bottom: 0 !important;
-    margin-top: 7rem !important;
+    margin-top: 7rem;
     color: #B2B2B2 !important;
   }
   .site-main .site-banner .site-title h3::after {
@@ -65,7 +121,7 @@
   .site-main .site-banner .site-title h1 {
     color: white;
     text-align: center !important;
-    font-size: 36px !important;
+    font-size: 36px;
   }
   .site-main .site-banner .site-title .txt-rotate {
     font-size: 15px !important;
@@ -81,7 +137,7 @@
     text-align: center !important;
     width: 100%;
     /* padding-left: 24.5% !important; */
-    margin-top: 12rem !important;
+    margin-top: 10rem;
   }
   .site-main .site-banner .site-title .button {
     margin-right: 0 !important;
@@ -89,7 +145,7 @@
   .site-main .site-banner .site-title .social-links {
     padding-left: 1rem;
     font-size: 2.5em;
-    margin-top: 2rem !important;
+    margin-top: 0.5rem !important;
   }
   .site-main .site-banner .site-title .fab {
     color: #D3D3D3;
@@ -111,9 +167,6 @@
   .about-area h1 {
     padding: 1rem !important;
   }
-  .about-area .about-title {
-    text-align: center;
-  }
   .about-area .button {
     margin-right: 0 !important;
   }
@@ -134,8 +187,11 @@
     height: 50px !important;
     padding-left: 0 !important;
   }
-  .project-area .button-group {
-    display: none !important;
+  .project-area .our-project {
+    transform: scale(1) !important;
+    margin-bottom: 1rem !important;
+    right: 0rem !important;
+    left: 0rem !important;
   }
   .contact-title {
     width: 311px !important;
@@ -162,37 +218,23 @@
     text-align: center !important;
     line-height: 3rem !important;
   }
-  .project-area .row .our-project {
-    margin-bottom: 1rem !important;
-  }
   .contact-me-area .row {
     width: 311px !important;
   }
 }
 
-/* If the viewport is <= 340px */
-@media only screen and (max-width: 340px) {
-  .header_area .main-menu .navbar,
-  .header_area .main-menu .navbar .navbar-brand,
-  .site-main .contact-me-area .contact .contact-title,
-  .site-main .contact-me-area .contact .contact-title p,
-  .site-main .services-area,
-  .site-main .contact-me-area .contact {
-    padding: 2%;
-    margin: 0%;
+/* Tablet Layout overrides */
+@media (max-width: 768px) {
+  .col-md-6 {
+    text-align: -webkit-center !important;
   }
-  .site-main .site-banner .site-title h1 {
-    font-size: 28px !important;
+  .project-area .our-project {
+    left: 2rem;
   }
-  .site-main > .services-area .services {
-    width: 13rem;
-  }
-  .project-area img {
-    width: 260px !important;
-    height: auto !important;
+  .site-main .project-area .button-group {
+    display: none !important;
   }
 }
-
 
 /* If the viewport is <= 792px */
 @media only screen and (max-width: 792px) {
@@ -200,25 +242,47 @@
     font-size: 31px;
     letter-spacing: 10px;
   }
-
   .site-main .site-banner .hero_scroll {
     display: none;
   }
-
-  .site-main .project-area .button-group button {
-    font: normal 500 18px/40px var(--roboto);
-  }
-
   .site-main .about-area .about-title p {
     padding: 0%;
   }
-
   .site-main .about-area .btn {
     margin-bottom: 5rem;
   }
-
   .site-main .services-area {
     padding-bottom: 5rem;
+  }
+  .site-main .project-area .button-group {
+    display: none !important;
+  }
+}
+
+/* If the viewport is <= 1200px. (Desktop 1024px and tablet layouts) */
+@media only screen and (max-width: 1200px) {
+  .about-area .about-title .resume {
+    text-align: center;
+  }
+  .project-area .button-group button {
+    font: normal 500 16px/10px var(--roboto) !important;
+  }
+  .project-area .button-group button:hover {
+    transform: none !important;
+  }
+  .project-area .button-group button:active {
+  }
+  .project-area .our-project {
+    transform: scale(0.75);
+    position: relative !important;
+    right: 2rem;
+  }
+}
+
+/* In-between Mobile and Desktop Layout (Special cases) */
+@media only screen and (max-width: 1780px) {
+  .w-75 {
+    width: 100% !important;
   }
 }
 

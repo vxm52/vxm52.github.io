@@ -528,6 +528,7 @@ svg path:nth-child(3){
 /* Footer Area */
 footer.footer-area {
   padding: 6rem 4rem 4rem 4rem;
+  text-align: center;
 }
 
 footer.footer-area .social h5 {

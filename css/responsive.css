@@ -69,6 +69,13 @@
   }
 }
 
+/* If the viewport is <= 440*/
+@media only screen and (max-width: 440px) {
+  .site-main .site-banner .site-title .site-buttons {
+    padding: 0 0rem !important;
+  }
+}
+
 /* Mobile layout overrides */
 @media only screen and (max-width: 767px) {
   body {
@@ -100,7 +107,7 @@
   }
 
   .site-main .site-banner {
-    height: 75vh;
+    height: 74vh;
   }
   .site-main .site-banner .container {
     text-align: -webkit-center !important;
@@ -131,8 +138,13 @@
   .site-main .site-banner .site-title .site-buttons {
     display: block !important;
     text-align: center !important;
+    padding: 0 7rem;
   }
-
+  .site-main .site-banner .site-title .site-buttons a {
+    font-weight: bold;
+    letter-spacing: 1px;
+    animation: pulse 4s infinite;
+  }
   .site-main .site-banner .site-title a {
     text-align: center !important;
     width: 100%;
@@ -143,7 +155,7 @@
     margin-right: 0 !important;
   }
   .site-main .site-banner .site-title .social-links {
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     font-size: 2.5em;
     margin-top: 0.5rem !important;
   }

@@ -34,7 +34,7 @@ a {
   /* background: var(--gradient-color); */
   background: var(--text-color2);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
 }
 

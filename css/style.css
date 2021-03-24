@@ -92,7 +92,6 @@ a {
 .site-main .site-banner {
   height: 100vh;
   /* background: url(./img/banner/Fox.jpg) no-repeat 0% 50%; /* alternative way of specifying background-position */
-  */
   /* background-position: 0% 50%; */
   margin-bottom: 30%;
 }
@@ -135,9 +134,6 @@ a {
 
 .site-main .site-banner .site-title .txt-rotate {
   padding-left: 2.25rem;
-}
-
-.site-main .site-banner .site-title .site-buttons {
 }
 
 .site-main .site-banner .site-title .social-links {

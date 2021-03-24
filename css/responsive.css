@@ -284,6 +284,9 @@
   .about-area .about-title .resume {
     text-align: center;
   }
+  .skills .container {
+    margin-left: auto;
+  }
   .services-area .services {
     transform: scale(0.8);
   }
@@ -298,8 +301,6 @@
   }
   .project-area .button-group button:hover {
     transform: none !important;
-  }
-  .project-area .button-group button:active {
   }
   .project-area .our-project {
     transform: scale(0.75);
@@ -330,17 +331,21 @@
     padding: 3% 4%;
   }
 
+  .skills .first-skill-icon {
+    margin-left: 2rem !important;
+  }
+}
+
+
+/* If the viewport is <= 2092px */
+/* This is to re-adjust skills icons in About Me section when adding new skills */
+@media only screen and (max-width: 2092px) {
   .site-main .about-area .skills .section-title {
     padding-right: 0;
   }
-
   .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center !important;
-  }
-
-  .skills .first-skill-icon {
-    margin-left: 2rem !important;
   }
 }

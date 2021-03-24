@@ -93,7 +93,6 @@ a {
   height: 100vh;
   /* background: url(./img/banner/Fox.jpg) no-repeat 0% 50%; /* alternative way of specifying background-position */
   /* background-position: 0% 50%; */
-  margin-bottom: 30%;
 }
 .site-main .site-banner .container {
   text-align: center;  /* Main item for center aligned site banner items */

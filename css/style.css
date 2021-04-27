@@ -115,6 +115,11 @@ a {
   transform: translateY(-10px);
 }
 
+.site-main .site-banner .site-title .waving-emoji {
+  height: 4.5rem;
+  transform: translateY(-1rem);
+}
+
 .site-main .site-banner .site-title h1 {
   font-size: 5rem;
   color: #DDDDDD;

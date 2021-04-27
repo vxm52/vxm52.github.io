@@ -318,6 +318,9 @@
     position: relative !important;
     right: 2rem;
   }
+  .project-area .our-project .title .text-uppercase {
+    font: normal 700 25px/26px var(--roboto) !important;
+  }
 }
 
 /* In-between Mobile and Desktop Layout (Special cases) */

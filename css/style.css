@@ -286,6 +286,10 @@ svg path:nth-child(3){
   padding: .4rem 0;
 }
 
+.site-main .about-area .resume .button{
+  animation: pulse 4s infinite;
+}
+
 .site-main .about-area .skills .section-title {
   padding-right: 2rem;
 }

@@ -28,6 +28,7 @@ a {
   /* font-weight: 500; */
   padding: 1.7rem;
   color: var(--text-color2);
+  transition: 100ms;
 }
 
 .header_area .main-menu .navbar-nav .active a {
@@ -290,7 +291,10 @@ svg path:nth-child(3){
   padding-left: 1.75rem;
   padding-right: 1.75rem;
   animation: pulse 4s infinite;
+  transition: 0.175s;
+  border: 1px solid transparent;
 }
+
 .site-main .about-area .resume i{
   margin-left: 0.5em;
 }
@@ -531,7 +535,7 @@ svg path:nth-child(3){
   background-clip: padding-box;
   /* box-shadow: var(--box-shadow); */
   transform: scale(1.1);
-  transition: .05s ease;
+  transition: 0.15s;
 }
 
 .site-main .contact-me-area .contact .contact-title h4 {

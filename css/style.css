@@ -360,6 +360,11 @@ svg path:nth-child(3){
   margin: 2rem 2rem;
 }
 
+.skill .python-icon {
+  text-align: center;
+  margin: 0.5rem 2rem;
+}
+
 .skills .skill-icon p {
   margin-top: 2rem;
   font-size: 1rem;
@@ -377,16 +382,62 @@ svg path:nth-child(3){
   transition: 150ms ease;
 }
 
-.skills .skill-icon i:hover {
-  color: lightgrey;
-}
-
 .skills .first-skill-icon {
   margin-left: 0;
 }
 
 .skills .special-size-icon {
   width: 3rem;
+}
+
+.skills .img-python {
+  text-align: center;
+  padding: 0;
+  transform: scale(0.85);
+  color: #808080;
+  width: 5.5rem;
+  height: 5.5rem;
+  transition: 150ms ease;
+}
+.overlay-python-img {
+  background: rgba(39,62,84,0.82);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+}
+
+.skills .python-icon .python-para {
+  color: var(--text-color);
+  font: normal 500 16px/ 25px var(--roboto);
+  margin-top: 0rem;
+}
+
+.skills .skill-icon .fa-html5:hover {
+  color: #f06529;
+}
+.skills .skill-icon .fa-css3-alt:hover {
+  color: #2965f1;
+}
+.skills .skill-icon .fa-js-square:hover {
+  color: #f0db4f;
+}
+.skills .skill-icon .fa-react:hover {
+  color: #6adafb;
+}
+.skills .skill-icon .fa-node:hover {
+  color: #68a063;
+}
+.skills .skill-icon .fa-java:hover {
+  color: #f89820;
+}
+.skills .python-icon .img-python:hover {
+  color: #f06529;
+}
+.skills .skill-icon .fa-database:hover {
+  color: #f29111;
+}
+.skills .skill-icon .fa-git-alt:hover {
+  color: #f1502f;
 }
 /* End skills section */
 /* End About Area */
@@ -594,6 +645,9 @@ footer .fab:hover {
 
 .email-link:hover {
   color: var(--primary-color);
+}
+.footer-area .social-links .fa-linkedin:hover, .footer-area .social-links .fa-github:hover {
+  color: white;
 }
 /* End Footer Area */
 

@@ -295,6 +295,9 @@
   .about-area .about-title .resume {
     text-align: center;
   }
+  .skills .first-skill-icon {
+    margin-left: 2rem !important;
+  }
   .skills .container {
     margin-left: auto;
   }
@@ -344,10 +347,6 @@
   .site-main .about-area {
     padding: 3% 4%;
   }
-
-  .skills .first-skill-icon {
-    margin-left: 2rem !important;
-  }
 }
 
 
@@ -356,6 +355,9 @@
 @media only screen and (max-width: 2092px) {
   .site-main .about-area .skills .section-title {
     padding-right: 0;
+  }
+  .skills .first-skill-icon {
+    margin-left: 0;
   }
   .flex-container {
     display: flex;

@@ -67,8 +67,9 @@ a {
 /* Credits to Yipl-Frontenders-Snippets at: https://codepen.io/Yipl-Frontenders/pen/QjdMge */
 .cursor {
   position: relative;
+  margin-right: 0.25rem;
   right: 1.5%;
-  font-size: 150%;
+  font-size: 2rem;
   font-weight: lighter;
   /* background-color: white; */
   color: white;

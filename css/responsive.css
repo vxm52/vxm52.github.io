@@ -137,10 +137,17 @@
     text-align: center !important;
     font-size: 36px;
   }
+  .site-main .site-banner .site-title p {
+    font-size: 1.25rem !important;
+  }
   .site-main .site-banner .site-title .txt-rotate {
-    font-size: 15px !important;
-    padding-left: 2rem !important;
+    font-size: 1rem !important;
+    padding-left: 1rem !important;
     color: #80DAFF !important;
+  }
+  .site-main .site-banner .site-title .cursor {
+    font-size: 1.5rem !important;
+    margin-right: 0rem !important;
   }
   .site-main .site-banner .site-title .site-buttons {
     display: block !important;
@@ -323,6 +330,12 @@
   }
   .project-area .our-project .title .text-uppercase {
     font: normal 700 25px/26px var(--roboto) !important;
+  }
+}
+
+@media only screen and (max-width: 1940px) {
+  .w-75 {
+    width: 95% !important;
   }
 }
 

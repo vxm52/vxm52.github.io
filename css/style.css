@@ -142,8 +142,72 @@ a {
   padding-left: 2.25rem;
 }
 
+/* Glowy Gradient Button */
+.glowy-gradient-style .flex-center {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+.glowy-gradient-style .noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.glowy-gradient-style .glowy-gradient-button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  background-color: #50d8d7;
+  background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
+  transition: 500ms;
+  box-shadow: 0 0 20px #854fee;
+  padding-bottom: 42.5px;
+  padding-left: 3.5px;
+  margin-top: 3rem;
+  animation: pulse 4s infinite;
+}
+.glowy-gradient-style .glowy-gradient-button::after {
+  width: 143px;
+  height: 43px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "Get in Touch";
+  font-size: 20px;
+  color: #eee;
+  border-radius: 25px;
+  background-color: #222;
+  transition: 500ms;
+}
+.glowy-gradient-style .glowy-gradient-button:hover::after {
+  font-size: 22px;
+  background-color: transparent;
+}
+.glowy-gradient-style .glowy-gradient-button:hover {
+  transform: scale(0.9);
+  box-shadow: 0 0 20px #854fee;
+  background-color: #923993;
+  background-image: linear-gradient(316deg, #923993 0%, #50d8d7 70%);
+  transition: 500ms;
+}
+.glowy-gradient-style .glowy-gradient-button:focus {
+  outline: none;
+}
+.glowy-gradient-style .glowy-gradient-button:active {
+  transform: scale(0.7);
+  box-shadow: 0 0 70px #854fee;
+  transition: 200ms;
+}
+
 .site-main .site-banner .site-title .social-links {
-  margin-top: 4rem;
+  margin-top: 1rem;
   font-size: 1.5em;
 }
 

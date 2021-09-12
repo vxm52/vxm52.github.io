@@ -77,6 +77,9 @@
   .site-main .site-banner .site-title .site-buttons {
     padding: 0 0rem !important;
   }
+  .glowy-gradient-style {
+    transform: scale(0.8);
+  }
   .site-main .site-banner .site-title .waving-emoji {
     height: 2.5rem !important;
     transform: translateY(-0.5rem) !important;

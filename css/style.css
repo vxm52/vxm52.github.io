@@ -167,8 +167,8 @@ a {
   background-image: linear-gradient(316deg, #50d8d7 0%, #923993 74%);
   transition: 500ms;
   box-shadow: 0 0 20px #854fee;
-  padding-bottom: 42.5px;
-  padding-left: 3.5px;
+  padding-bottom: 43.75px;
+  padding-left: 3.75px;
   margin-top: 3rem;
   animation: pulse 4s infinite;
 }
@@ -187,7 +187,7 @@ a {
   transition: 500ms;
 }
 .glowy-gradient-style .glowy-gradient-button:hover::after {
-  font-size: 22px;
+  font-size: 25px;
   background-color: transparent;
 }
 .glowy-gradient-style .glowy-gradient-button:hover {
@@ -203,7 +203,7 @@ a {
 .glowy-gradient-style .glowy-gradient-button:active {
   transform: scale(0.7);
   box-shadow: 0 0 70px #854fee;
-  transition: 200ms;
+  transition: 75ms;
 }
 
 .site-main .site-banner .site-title .social-links {
@@ -220,7 +220,7 @@ a {
   left: 0;
   right: 0;
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #9F9F9F;
   opacity: 0.25;
@@ -237,10 +237,10 @@ a {
 }
 
 .site-main .site-banner .hero_scroll .fa-chevron-down {
-  transform: scale(2.5);
+  transform: scale(2);
   -webkit-animation: bounce 2s infinite;
   padding: 2px;
-  font-size: 2.75rem;
+  font-size: 2rem;
   color: #9F9F9F;
 }
 

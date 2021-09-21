@@ -184,7 +184,7 @@ a {
   color: #eee;
   border-radius: 25px;
   background-color: #222;
-  transition: 500ms;
+  transition: 200ms;
 }
 .glowy-gradient-style .glowy-gradient-button:hover::after {
   font-size: 25px;
@@ -356,7 +356,7 @@ svg path:nth-child(3){
   padding-left: 1.75rem;
   padding-right: 1.75rem;
   animation: pulse 4s infinite;
-  transition: 0.175s;
+  transition: 100ms;
   border: 1px solid transparent;
 }
 

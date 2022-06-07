@@ -86,6 +86,21 @@
   }
 }
 
+/* If the viewport is <= 464px (Mobile screens) */
+@media only screen and (max-width: 464px) {
+  .project-area .our-project .project-details-overlay {
+    margin-left: 0rem !important;
+    top: 0rem !important;
+    left: 10% !important;
+  }
+  .project-area .our-project .project-details-overlay a {
+    padding: 0 0rem !important;
+    right: 1.75rem;
+    font-size: 1rem !important;
+    /* width: 1rem !important; */
+  }
+}
+
 /* Mobile layout overrides */
 @media only screen and (max-width: 767px) {
   body {
@@ -242,6 +257,11 @@
   .contact-me-area .row {
     width: 311px !important;
   }
+  .project-area .our-project .project-details-overlay {
+    margin-top: 1.5rem !important;
+    right: 8rem !important;
+    width: 14rem;
+  }
 }
 
 /* Tablet Layout overrides */
@@ -267,6 +287,14 @@
   .site-main .project-area .button-group {
     display: none !important;
   }
+  .project-area .our-project .project-details-overlay p {
+    display: none;
+  }
+  .project-area .our-project .project-details-overlay {
+    margin-top: 1.5rem !important;
+    right: 8rem !important;
+    width: 10rem;
+  }
 }
 
 /* If the viewport is <= 792px */
@@ -289,6 +317,18 @@
   }
   .site-main .project-area .button-group {
     display: none !important;
+  }
+}
+
+/* If viewport is <= 990px */
+@media only screen and (max-width: 990px) {
+  .project-area .our-project .project-details-overlay {
+    margin-left: 0rem !important;
+    top: 0rem !important;
+    left: 10% !important;
+  }
+  .project-area .our-project .project-details-overlay a {
+    top: 2rem !important;
   }
 }
 
@@ -333,6 +373,13 @@
   }
   .project-area .our-project .title .text-uppercase {
     font: normal 700 25px/26px var(--roboto) !important;
+  }
+  .project-area .our-project .py-4 .word-hider {
+    display: none;
+  }
+  .project-area .our-project .project-details-overlay {
+    margin-left: 5rem !important;
+    top: 0rem !important;
   }
 }
 

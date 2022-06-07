@@ -561,9 +561,61 @@ svg path:nth-child(3){
   font: normal 700 25px/12px var(--roboto);
 }
 
-.site-main .project-area .grid .our-project>.img a:hover img {
-  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+.site-main .project-area .grid .our-project>.img .projects:hover img {
+  filter: brightness(0.1) drop-shadow(1px 8px 30px #b1afaf);
   transition: 200ms ease;
+}
+.site-main .project-area .grid .our-project>.img .projects:hover .project-details-overlay {
+  opacity: 100%;
+  transform: translateY(20px);
+}
+
+.site-main .project-area .grid .our-project>.img .projects {
+  position: relative;
+  transition: 200ms ease-in-out;
+}
+
+.site-main .project-area .grid .our-project>.img .project-details-overlay {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  margin-left: 1.25rem;
+  transition: 200ms ease-in-out;
+}
+
+.site-main .project-area .grid .our-project>.img .project-details-overlay p {
+  position: relative;
+  top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2rem;
+  /* padding-right: 3%; */
+}
+
+.site-main .project-area .grid .our-project>.img .project-details-overlay a {
+  position: relative;
+  top: 4rem;
+  text-align: center;
+  color: white;
+}
+
+.site-main .project-area .grid .our-project>.img .project-details-overlay a i {
+  color: white;
+}
+
+.site-main .project-area .grid .our-project>.img .project-details-overlay a:hover {
+  text-decoration: none;
+  background: var(--gradient-color);
+  padding: 0.25rem;
+  border-radius: 12px;
+  transition: 100ms ease;
+}
+
+.site-main .project-area .grid .our-project>.img .project-details-overlay .demo-link:hover {
+  background: var(--gradient-color-green);
 }
 
 .site-main .project-area .grid .our-project>.img .project-5-img img {
@@ -571,19 +623,19 @@ svg path:nth-child(3){
 }
 
 .site-main .project-area .grid .our-project>.img .project-1-img:hover img {
-  filter: brightness(1.2) drop-shadow(1px 8px 30px #b1afaf);
+  filter: brightness(0.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 .site-main .project-area .grid .our-project>.img .project-4-img:hover img {
-  filter: brightness(1.2) drop-shadow(1px 8px 30px #b1afaf);
+  filter: brightness(0.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 .site-main .project-area .grid .our-project>.img .project-5-img:hover img {
-  filter: brightness(1.3) drop-shadow(1px 8px 30px #b1afaf);
+  filter: brightness(0.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 .site-main .project-area .grid .our-project>.img .project-6-img:hover img {
-  filter: brightness(1.03) drop-shadow(1px 8px 30px #b1afaf);
+  filter: brightness(0.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 .site-main .our-project img {

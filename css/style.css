@@ -696,7 +696,7 @@ svg path:nth-child(3){
   background: whitesmoke;
   background-clip: padding-box;
   /* box-shadow: var(--box-shadow); */
-  transform: scale(1.1);
+  transform: scale(0.95);
   transition: 0.15s;
 }
 

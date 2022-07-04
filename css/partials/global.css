@@ -61,6 +61,7 @@
 }
 
 .button.primary-button:hover {
+  animation: pulse 2.5s infinite;
   background: whitesmoke;
   background-clip: padding-box;
   /* box-shadow: var(--box-shadow); */

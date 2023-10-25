@@ -482,6 +482,9 @@ svg path:nth-child(3){
 .skills .skill-icon .fa-jenkins:hover {
   color: #F0D6B7;
 }
+.skills .skill-icon .fa-aws:hover {
+  color: #FF9900;
+}
 .skills .skill-icon .fa-linux:hover {
   color: #000000;
 }

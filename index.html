@@ -97,10 +97,10 @@
               <li class="nav-item" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="2400">
                 <a class="nav-link" href="#services">Services</a>
               </li>
-              <!-- <li class="nav-item" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="2600">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li> -->
               <li class="nav-item" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="2600">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="2800">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
@@ -400,6 +400,205 @@
 
       <!-- ======================= Projects Area ======================= -->
 
+      <section class="project-area">
+        <span id="projects"></span><!-- Navbar will scroll to this element. Check css for its offset -->
+        <div class="container">
+          <div class="project-title pb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+            <h1 class="text-uppercase text-center title-h1">Past Personal Projects</h1>
+          </div>
+
+          <!-- Filter buttons -->
+          <div class="button-group">
+            <button data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" type="button" class="active" id="btn1">All</button>
+            <button data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" type="button" data-filter=".front-end">Front-End</button> <!-- Will filter all div with "front-end" class -->
+            <button data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" type="button" data-filter=".full-stack">Full Stack</button>
+            <!-- <button data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" type="button" data-filter=".computer-vision">Computer Vision</button> -->
+            <!-- <button data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" type="button" data-filter=".machine-learning">Machine Learning</button> -->
+            <!-- <button data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" type="button" data-filter=".augmented-reality">AR</button> -->
+            <button data-aos="zoom-in" data-aos-delay="250" data-aos-once="true" type="button" data-filter=".upcoming">Upcoming...</button>
+          </div>
+
+          <!-- Project cards -->
+          <div class="row grid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
+            <div class="col-lg-4 col-md-5 col-sm-12 element-item full-stack">
+              <div class="our-project">
+                <div class="img">
+                  <div class="projects project-7-img">
+                    <img src="./img/projects/Hermes chat Preview.png" alt="project-7">
+                    <div class="project-details-overlay">
+                      <p>A full real-time chat application with social authentication and dedicated chat API's/sockets.</p>
+                      <a class="demo-link" href="https://hermeschat.netlify.app" target="_blank" alt="project-7">
+                        Demo
+                        <i class="fas fa-play"></i>
+                      </a>
+                      <br>
+                      <a href="https://github.com/vxm52/Hermes" target="_blank" alt="project-7">
+                        View GitHub Repo
+                        <i class="fab fa-github" style="transform: scale(1.3);"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Hermes Messenger</h4>
+                  <span class="text-secondary">React / Firebase / Chat Engine</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                <div class="img">
+                  <div class="projects project-5-img">
+                    <img src="./img/projects/Alan AI Preview.png" alt="project-5">
+                    <div class="project-details-overlay">
+                      <p>A conversational voice controlled news application made using React and the Alan AI platform</p>
+                      <a href="https://github.com/vxm52/Alan-AI-News" target="_blank" alt="project-5">
+                        View GitHub Repo
+                        <i class="fab fa-github" style="transform: scale(1.3);"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Alan AI News</h4>
+                  <span class="text-secondary">React</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-sm-12 element-item upcoming">
+              <div class="our-project">
+                <div class="img">
+                  <div class="projects project-3-img">
+                    <img src="./img/projects/Super Mario World Map Preview 2.png" alt="project-3">
+                    <div class="project-details-overlay">
+                      <p>Super Mario World themed map made using Maps JavaScript API from the Google Cloud Platform</p>
+                      <a href="https://github.com/vxm52/Super-Mario-World-Map" target="_blank" alt="project-3">
+                        View GitHub Repo
+                        <i class="fab fa-github" style="transform: scale(1.3);"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Super Mario <span class="word-hider">World</span> Map</h4>
+                  <span class="text-secondary">Google Maps API / JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-sm-12 element-item front-end">
+              <div class="our-project">
+                <div class="img">
+                  <div class="projects project-1-img">
+                    <img src="./img/projects/Munchies Preview.png" alt="project-1">
+                    <div class="project-details-overlay">
+                      <p>A simple recipe app made with TheMealDB's crowd-sourced database of recipes through their JSON API.</p>
+                      <a class="demo-link" href="https://vxm52.github.io/Munchies/" target="_blank" alt="project-1">
+                        Demo
+                        <i class="fas fa-play"></i>
+                      </a>
+                      <br>
+                      <a href="https://github.com/vxm52/Munchies" target="_blank" alt="project-1">
+                        View GitHub Repo
+                        <i class="fab fa-github" style="transform: scale(1.3);"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Munchies Recipe App</h4>
+                  <span class="text-secondary">HTML / CSS / JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-sm-12 element-item front-end">
+              <div class="our-project">
+                <div class="img">
+                  <div class="projects project-6-img">
+                    <img src="./img/projects/Keeper App Preview.png" alt="project-6">
+                    <div class="project-details-overlay">
+                      <p>A sticky-notes style dashboard made with pure React and Material UI</p>
+                      <a class="demo-link" href="https://keeper-notes-spark.netlify.app/" target="_blank" alt="project-6">
+                        Demo
+                        <i class="fas fa-play"></i>
+                      </a>
+                      <br>
+                      <a href="https://github.com/vxm52/Keeper-Notes-App" target="_blank" alt="project-6">
+                        View GitHub Repo
+                        <i class="fab fa-github" style="transform: scale(1.3);"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">Keeper Notes App</h4>
+                  <span class="text-secondary">React</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-sm-12 element-item full-stack">
+              <div class="our-project">
+                <div class="img">
+                  <div class="projects project-2-img">
+                    <img src="./img/projects/Todo List Preview.png" alt="project-2">
+                    <div class="project-details-overlay">
+                      <p>Simple To-Do List app with persistent database hosted on MongoDB. Backend and server built using Node.js and Express.js</p>
+                      <a class="demo-link" href="https://vaibhav-todo-list.herokuapp.com/" target="_blank" alt="project-2">
+                        Demo
+                        <i class="fas fa-play"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">To-Do List</h4>
+                  <span class="text-secondary">Node / Express / MongoDB</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-sm-12 element-item front-end">
+              <div class="our-project">
+                <div class="img">
+                  <div class="projects project-4-img">
+                    <img src="./img/projects/TinDog Preview.png" alt="project-4">
+                    <div class="project-details-overlay">
+                      <p>Tinder for dogs. Simple, pure-frontend, and responsive website design made with Bootstrap</p>
+                      <a class="demo-link" href="https://vxm52.github.io/TinDog/" target="_blank" alt="project-4">
+                        Demo 
+                        <i class="fas fa-play"></i> 
+                      </a>
+                      <br>
+                      <a href="https://github.com/vxm52/TinDog" target="_blank" alt="project-4">
+                        View Github Repo
+                        <i class="fab fa-github" style="transform: scale(1.3);"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="title py-4">
+                  <h4 class="text-uppercase">TinDog Design</h4>
+                  <span class="text-secondary">HTML / CSS</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-sm-12 element-item computer-vision" style="display: none;">
+              <div class="our-project">
+                <div class="img">
+                  <!-- <h4 style="padding-top: 2rem;">Coming Soon!</h4> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
 
 
       <!-- ======================= End Projects Area ======================= -->
@@ -411,17 +610,17 @@
                 C220, 100, 400, 100, 660, 192
                 C880, 290, 1100, 290, 1320, 192
                 L1320 1500
-                L0 500" style="stroke: none; fill: white;"/>
+                L0 500" style="stroke: none; fill: #f6f6f6;"/>
           <path fill-opacity="0.5" d="M0, 192
                 C220, 100, 400, 100, 660, 192
                 C880, 290, 1100, 290, 1320, 192
                 L1320 1500
-                L0 500" style="stroke: none; fill: white;"/>
+                L0 500" style="stroke: none; fill: #f6f6f6;"/>
           <path fill-opacity="0.5" d="M0, 192
                 C220, 100, 400, 100, 660, 192
                 C880, 290, 1100, 290, 1320, 192
                 L1320 1500
-                L0 500" style="stroke: none; fill: white;"/>
+                L0 500" style="stroke: none; fill: #f6f6f6;"/>
         </svg>
       </div>
     </div>

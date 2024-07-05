@@ -273,13 +273,13 @@ a {
 
 .filler {
   position: relative;
-  color: white;
-  background: white;
+  color: #f6f6f6;
+  background: #f6f6f6;
   height: 4rem;
 }
 .wave-container-bottom {
   position: relative;
-  color: white;
+  color: #f6f6f6;
   text-align: center;
   overflow: hidden;
   height: 5rem;

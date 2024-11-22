@@ -324,6 +324,10 @@ svg path:nth-child(3){
   background-color: #f6f6f6;
 }
 
+.site-main .about-area .row {
+  padding-top: 3rem;
+}
+
 .site-main .about-area .about-image {
   text-align: center;
   margin: 0;
